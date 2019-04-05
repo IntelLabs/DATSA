@@ -28,7 +28,11 @@ SOFTWARE.
 
 Author and contact: Justin Gottschlich, Intel Labs (justin.gottschlich@intel.com)
 
-#################################################################################
+What is DATSA?
+
+DATSA (Data Aggregator for Time Series Anomalies) is a tool to help anomaly 
+detection engineers and scientists quickly generate synthetic time series data 
+for the anomaly types they are interested in.
 
 Please see the DATSA tutorial for a detailed explanation of how to use DATSA:
 
