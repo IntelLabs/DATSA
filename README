@@ -24,7 +24,18 @@ SOFTWARE.
 
 */
 
+#################################################################################
+
 Justin Gottschlich, Intel Labs
+
+#################################################################################
+
+Please see the DATSA tutorial for a detailed explanation of how to use DATSA:
+
+  /docs/DATSA_tutorial.v1.0.pdf
+
+The below explanation is intended for advanced C++ programmers or anomaly detection
+experts who can dive in immediately without much background.
 
 #################################################################################
 The DATSA code is distributed in the following manner:
@@ -39,6 +50,7 @@ To build DATSA using some of the examples:
 
 cd examples
 <edit main.cpp to include / exclude examples>
+<add new example files to the Makefile>
 make clean; make
 ./datsa
 
@@ -60,3 +72,6 @@ Include the following files in your project:
   #include "src/function_variable.h"
   #include "src/event_data.h"
 
+For more detailed instructions please see the DATSA tutorial.
+
+#################################################################################
