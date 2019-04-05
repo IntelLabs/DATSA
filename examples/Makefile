@@ -23,7 +23,7 @@ uninstall:
 	rm -f /usr/local/lib/lib$(LIBNAME).so
 
 $(EXEC): $(OBJS)
-	$(CC) $(CFLAGS) -o $@ $^ -L. -l$(LIBNAME)
+	$(CC) $(CFLAGS) -o $@ $^ -L. -l$(LIBNAME) -lpthread
 
 clean:
-	rm *.so $(EXEC); rm ../src/*.o; find . -name "*.o" -type f -delete
+	rm -f *.so $(EXEC); rm -f ../src/*.o; find . -name "*.o" -type f -delete
