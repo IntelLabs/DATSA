@@ -69,7 +69,6 @@ static std::string pad_int(int const val)
   }
   
   str += std::to_string(val);
-  
   return str;
 } 
 
@@ -129,7 +128,7 @@ static data_list generate_programs()
 
 //----------------------------------------------------------------------------
 //----------------------------------------------------------------------------
-static std::stringstream&& output_programs(data_list &data)
+static std::stringstream output_programs(data_list &data)
 {
   std::stringstream out;
   
@@ -181,8 +180,6 @@ void api_program_generation()
   
   std::cout << output_programs(data).str();  
 }
-
-
 
 
 
