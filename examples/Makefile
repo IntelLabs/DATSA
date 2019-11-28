@@ -7,7 +7,7 @@ LIBNAME=anomalydatagen
 EXEC=datsa
 
 LIBOBJS = ../src/data_generator.o ../src/event_data.o
-OBJS = main.o function_vars/function_vars.o random_vars/random_vars.o sine/sine.o space_shuttle/space_shuttle.o speed_bump/speed_bump.o ecg/ecg.o nary/nary_anomaly.o step/step_anomaly.o exact/exact_anomaly.o
+OBJS = main.o function_vars/function_vars.o random_vars/random_vars.o sine/sine.o space_shuttle/space_shuttle.o speed_bump/speed_bump.o ecg/ecg.o nary/nary_anomaly.o step/step_anomaly.o exact/exact_anomaly.o api_generation/api_generation.o
 
 # "all" is name of the default target, running "make" without params would use it
 all: lib$(LIBNAME).so $(EXEC)

@@ -24,37 +24,13 @@ SOFTWARE.
 
 */
 
-//----------------------------------------------------------------------------
-#include <iomanip>
-#include "random_vars/random_vars.h"
-#include "function_vars/function_vars.h"
-#include "sine/sine.h"
-#include "space_shuttle/space_shuttle.h"
-#include "speed_bump/speed_bump.h"
-#include "ecg/ecg.h"
-#include "nary/nary_anomaly.h"
-#include "step/step_anomaly.h"
-#include "exact/exact_anomaly.h"
-#include "api_generation/api_generation.h"
+#ifndef API_GENERATION_H_
+#define API_GENERATION_H_
 
-//----------------------------------------------------------------------------
-//----------------------------------------------------------------------------
-int main()
-{
-  srand(time(NULL));
+void api_program_generation();
 
-  api_program_generation();
-  //example_exact_anomaly();
-  //example_step_anomaly();
-  //example_nary_anomaly();
-  //example_random_vars();
-  //example_function_vars();
-  //example_space_shuttle();
-  //example_sine();
-  //example_ecg();
+#endif // FUNCTION_VARS_H_
 
-  return 0;
-}
 
 
 
