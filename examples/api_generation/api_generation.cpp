@@ -161,7 +161,7 @@ static std::stringstream output_programs(data_list &data)
     out << std::setprecision(0);
     for (; it != i->variable_values().end(); ++it)
     {
-      out << ",\t";
+      out << "\t";
       out << std::fixed << it->second;
     }
     out << std::setprecision(0);
