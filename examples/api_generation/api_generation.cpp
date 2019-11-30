@@ -102,7 +102,7 @@ static void add_variables_to_data_generator(data_generator& data_gen,
 //----------------------------------------------------------------------------
 static data_list generate_programs()
 {
-  int first_program = 1, until_program = 100;
+  int first_program = 0, until_program = 100;
 
   // basically, don't let any anomalies happen for now - force one range
   // of non-anomalous programs to exist over the whole segment of programs
